@@ -1,0 +1,49 @@
+.card {
+  max-width: 100%;
+  width: 100%;
+  padding: 4rem;
+  background-color: rgb(46, 45, 45);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+@media(max-width:768px) {
+  .card {
+    width: 100%;
+    padding: 1.5rem
+  }
+}
+
+h3 {
+  color: white;
+  display: inline-block;
+}
+
+
+.mobile-hotline{display:none}
+
+.hotline {position: fixed;
+  left: 10px;
+  bottom: 10px;
+  z-index: 9000;
+  display: block;
+  background: #fac100;
+  color: red;
+  padding-top: 5px;padding-bottom:5px; padding-left:12px; padding-right: 12px;
+  border-radius: 99px;}
+.hotline .hotline-number{font-size:20px; color: #b20000; font-weight: bold}
+
+@media  (max-width: 767px) {
+
+  .hotline{
+
+    display :none;
+
+  }
+  .mobile-hotline{display: block; bottom: 0; width: 100%; background:rgba(0,0,0,0.5); height: 60px; position: fixed; z-index:9999999}
+  .mobile-hotline .mobile-hotline-left{width: 45%; float: left; text-align: center; background: #00a502; margin-left: 10px; margin-right:5px; margin-top: 7px; height: 45px; border-radius: 4px}
+  .mobile-hotline .mobile-hotline-left a{color: white; line-height: 46px; font-size:16px; font-weight: bold}
+
+  .mobile-hotline .mobile-hotline-right{width: 45%; float: right; text-align: center; background: #fac100; margin-left: 5px; margin-right: 10px; margin-top: 7px; height: 45px; border-radius: 4px}
+  .mobile-hotline .mobile-hotline-right a{color: red; line-height: 46px; font-size: 16px; font-weight: bold}
+}
+
