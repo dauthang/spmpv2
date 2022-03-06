@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'thuy-san-minh-phu-v1';
+  title = 'thuy-san-minh-phu';
+
+  constructor() {}
+  ngOnInit() {
+
+  }
+
+  ngOnDestroy() {
+  }
 }
